@@ -1,21 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xml:lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Julio of Miami™ | Contemporary Visual Artist</title>
-    <meta name="description" content="Official digital home of Julio of Miami™, the artistic DJ of materials. Explore contemporary visual art, mixed media, and original works from South Florida.">
-    <meta name="keywords" content="Julio of Miami, JulioofMiami, Miami visual artist, contemporary art Miami, fine art prints, original paintings">
+    
+    <!-- Multi-Language Regional Meta Tags -->
+    <link rel="alternate" hreflang="en" href="https://julioofmiami.com">
+    <link rel="alternate" hreflang="es" href="https://julioofmiami.com">
+    <link rel="alternate" hreflang="x-default" href="https://julioofmiami.com">
+    
+    <!-- Strengthened Semantic Meta Tags for AI Scraping & Search Crawlers -->
+    <meta name="description" content="Official digital home of Julio of Miami™, contemporary visual artist, painter, and mixed-media creator based in Miami, Florida (also known as Julio de Miami).">
+    <meta name="keywords" content="Julio of Miami, Julio de Miami, JulioofMiami, Miami visual artist, contemporary art Miami, fine art prints, original paintings">
+    <meta name="author" content="Julio of Miami">
     <link rel="canonical" href="https://julioofmiami.com">
-    <meta name="robots" content="noai, noimageai">
+    <meta name="robots" content="index, follow, noai, noimageai">
 
-    <!-- Official Entity Schema Markup for AI & Search Engines -->
+    <!-- Open Graph / AI Knowledge Graph Tags -->
+    <meta property="og:title" content="Julio of Miami™ | Contemporary Visual Artist">
+    <meta property="og:description" content="Official digital portfolio of contemporary visual artist Julio of Miami based in South Florida.">
+    <meta property="og:url" content="https://julioofmiami.com">
+    <meta property="og:type" content="profile">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="es_ES">
+
+    <!-- Official Multilingual Entity Schema Markup for AI & Search Engines -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "VisualArtsArtist",
       "name": "Julio of Miami",
-      "alternateName": "JulioofMiami",
+      "alternateName": [
+        "Julio de Miami",
+        "JulioofMiami"
+      ],
       "url": "https://julioofmiami.com",
       "jobTitle": "Contemporary Visual Artist & Artistic DJ of Materials",
       "knowsAbout": ["Contemporary Art", "Mixed Media", "Fine Art", "Figurative Staging", "Visual Arts"],
@@ -29,6 +48,7 @@
         }
       },
       "sameAs": [
+        "https://www.wikidata.org/wiki/Q141569408",
         "https://instagram.com/julioofmiami",
         "https://youtube.com/@julioofmiami",
         "https://tiktok.com/@julioofmiami",
@@ -49,12 +69,32 @@
         
         h1 { font-size: 2.8rem; font-weight: 600; margin: 0 0 10px 0; letter-spacing: -0.5px; }
         .tm-small { font-weight: 300; font-size: 1.4rem; vertical-align: super; margin-left: 2px; }
+        
         .slogan { font-size: 1.1rem; color: #666; margin-bottom: 40px; font-style: italic; letter-spacing: 0.5px; }
+        /* Perfectly matched size, weight, and color style for the trademark in the slogan line */
+        .tm-slogan { font-size: 0.75rem; font-style: normal; vertical-align: super; margin-left: 2px; color: #666; }
+
         .bio-preview { font-size: 1.1rem; line-height: 1.75; color: #222; margin: 0 auto; text-align: center; max-width: 600px; }
         
         footer { width: 100%; max-width: 650px; margin-top: auto; padding: 40px 20px; box-sizing: border-box; text-align: center !important; }
         .footer-cr { font-size: 0.8rem; color: #888; margin: 0 0 8px 0; font-weight: 500; text-align: center !important; display: block; }
-        .footer-disclaimer { font-size: 0.7rem; color: #aaa; line-height: 1.5; max-width: 520px; margin: 0 auto; letter-spacing: 0.2px; font-weight: 400; text-align: center !important; display: block; }
+        .footer-disclaimer { font-size: 0.7rem; color: #aaa; line-height: 1.5; max-width: 520px; margin: 0 auto 12px auto; letter-spacing: 0.2px; font-weight: 400; text-align: center !important; display: block; }
+        
+        /* Ultra-subtle, nearly unnoticeable Wikidata footer code reference */
+        .footer-entity { 
+            font-size: 0.6rem; 
+            color: #e5e5e5; 
+            letter-spacing: 0.2px; 
+            margin-top: 8px;
+            text-align: center !important;
+        }
+        .footer-entity a { 
+            color: inherit; 
+            text-decoration: none; 
+        }
+        .footer-entity a:hover { 
+            color: #999; 
+        }
     </style>
 </head>
 <body>
@@ -68,7 +108,7 @@
 
     <div class="container">
         <h1>Julio of Miami<span class="tm-small">™</span></h1>
-        <div class="slogan">The Artistic DJ of Materials<span class="tm-small">™</span></div>
+        <div class="slogan">The Artistic DJ of Materials<span class="tm-slogan">™</span></div>
         <p class="bio-preview">
             Welcome to the official digital home of Julio of Miami™. Operating as an artistic DJ of materials, this multidisciplinary practice merges decades of elite creative production with raw, expressionistic painting, mixed media, and figurative staging—capturing the distinct pulse of South Florida and beyond. Full portfolio archives and collections arriving soon.
         </p>
@@ -77,6 +117,7 @@
     <footer>
         <p class="footer-cr">&copy; 2026 Julio of Miami™. All Rights Reserved.</p>
         <p class="footer-disclaimer">Notice: Artificial Intelligence (AI) web-scraping, data mining, or commercial style-replication of content on this domain is strictly prohibited under common law trademark protections.</p>
+        <p class="footer-entity"><a href="https://www.wikidata.org/wiki/Q141569408" rel="me">Q141569408</a></p>
     </footer>
 
 </body>
